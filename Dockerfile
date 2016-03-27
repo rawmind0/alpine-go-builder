@@ -1,11 +1,11 @@
-FROM rawmind/alpine-base:0.3.3-2
+FROM rawmind/alpine-base:0.3.3-3
 MAINTAINER Raul Sanchez <rawmind@gmail.com>
 
 # Compile and install monit and confd
 ENV GOMAXPROCS=2 \
     GOROOT=/usr/lib/go \
     GOPATH=/opt/src \
-    GOBIN=/gopath/bin \
+    GOBIN=/gopath/bin 
 ENV PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 # Install and configure golang
