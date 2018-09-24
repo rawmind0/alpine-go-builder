@@ -11,6 +11,7 @@ docker build -t rawmind/alpine-go-builder:<version> .
 
 ## Versions
 
+- `3.8-0` [(Dockerfile)](https://github.com/rawmind0/alpine-go-builder/blob/3.8-0/Dockerfile)
 - `3.7-0` [(Dockerfile)](https://github.com/rawmind0/alpine-go-builder/blob/3.7-0/Dockerfile)
 - `0.3.4` [(Dockerfile)](https://github.com/rawmind0/alpine-go-builder/blob/0.3.4/Dockerfile)
 - `0.3.3` [(Dockerfile)](https://github.com/rawmind0/alpine-go-builder/blob/0.3.3/Dockerfile)
